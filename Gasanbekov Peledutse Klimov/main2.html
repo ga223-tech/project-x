@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Вступление -->
+    <section class="intro">
+        <div class="intro-content">
+            <h1>Добро пожаловать на наш сайт!</h1>
+            <p>Мы команда профессионалов, готовых предложить вам лучший сервис. Узнайте о нас больше ниже!</p>
+        </div>
+    </section>
+
+    <!-- Наша команда -->
+    <section class="team">
+        <h2>Наша команда</h2>
+
+        <!-- Гасанбеков Агамирза -->
+        <div class="team-member">
+            <img src="photo/gasanbekov.jpg" alt="Фотография Гасанбекова Агамирзы" class="team-member-photo">
+            <h3>Гасанбеков Агамирза</h3>
+            <p>Руководитель проекта</p>
+            <button class="bio-btn" onclick="showBio('gasanbekov')">Подробнее</button>
+
+            <div id="gasanbekov" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('gasanbekov')">&times;</span>
+                    <h3>Гасанбеков Агамирза</h3>
+                    <p>Агамирза — опытный руководитель проектов. Он координирует всю работу команды, управляет рисками и следит за соблюдением сроков выполнения задач.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Климов Павел -->
+        <div class="team-member">
+            <img src="photo/klimov.jpg" alt="Фотография Климова Павла" class="team-member-photo">
+            <h3>Климов Павел</h3>
+            <p>Менеджер проекта</p>
+            <button class="bio-btn" onclick="showBio('klimov')">Подробнее</button>
+
+            <div id="klimov" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('klimov')">&times;</span>
+                    <h3>Климов Павел</h3>
+                    <p>Павел — менеджер проектов, он отвечает за планирование, управление ресурсами и координацию всех этапов работы над проектом.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ариадна Порфирьева -->
+        <div class="team-member">
+            <img src="photo/ariadna.jpg" alt="Фотография Ариадны Порфирьевой" class="team-member-photo">
+            <h3>Ариадна Порфирьева</h3>
+            <p>Дизайнер</p>
+            <button class="bio-btn" onclick="showBio('ariadna')">Подробнее</button>
+
+            <div id="ariadna" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('ariadna')">&times;</span>
+                    <h3>Ариадна Порфирьева</h3>
+                    <p>Ариадна — креативный дизайнер, который работает над визуальной частью проектов, создавая графику и интерфейсы, которые привлекают внимание пользователей.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Рома Пэлэдуцэ -->
+        <div class="team-member">
+            <img src="photo/roma.jpg" alt="Фотография Ромы Пэлэдуцэ" class="team-member-photo">
+            <h3>Рома Пэлэдуцэ</h3>
+            <p>Разработчик кода</p>
+            <button class="bio-btn" onclick="showBio('roma')">Подробнее</button>
+
+            <div id="roma" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('roma')">&times;</span>
+                    <h3>Рома Пэлэдуцэ</h3>
+                    <p>Рома — разработчик, специализируется на создании функционала и оптимизации кода. Он активно работает над внутренней архитектурой проектов и их улучшением.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Никоенко Михаил -->
+        <div class="team-member">
+            <img src="photo/mikhail.jpg" alt="Фотография Никоенко Михаила" class="team-member-photo">
+            <h3>Никоенко Михаил</h3>
+            <p>Помощник дизайнера</p>
+            <button class="bio-btn" onclick="showBio('mikhail')">Подробнее</button>
+
+            <div id="mikhail" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('mikhail')">&times;</span>
+                    <h3>Никоенко Михаил</h3>
+                    <p>Михаил — помощник дизайнера, он помогает в разработке стилей и адаптации элементов для разных устройств, улучшая визуальное восприятие сайта.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Владимир Паршин -->
+        <div class="team-member">
+            <img src="photo/vladimir.jpg" alt="Фотография Владимира Паршина" class="team-member-photo">
+            <h3>Владимир Паршин</h3>
+            <p>Тестировщик</p>
+            <button class="bio-btn" onclick="showBio('vladimir')">Подробнее</button>
+
+            <div id="vladimir" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('vladimir')">&times;</span>
+                    <h3>Владимир Паршин</h3>
+                    <p>Владимир занимается тестированием программного обеспечения, проверяет работоспособность всех компонентов и устраняет ошибки в процессе разработки.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Иванов Дмитрий -->
+        <div class="team-member">
+            <img src="photo/dmitriy.jpg" alt="Фотография Иванова Дмитрия" class="team-member-photo">
+            <h3>Иванов Дмитрий</h3>
+            <p>Тестировщик</p>
+            <button class="bio-btn" onclick="showBio('dmitriy')">Подробнее</button>
+
+            <div id="dmitriy" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('dmitriy')">&times;</span>
+                    <h3>Иванов Дмитрий</h3>
+                    <p>Дмитрий — тестировщик, который тщательно проверяет код на наличие багов и помогает улучшать стабильность и производительность проекта.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Екимов Сергей -->
+        <div class="team-member">
+            <img src="photo/sergey.jpg" alt="Фотография Екимова Сергея" class="team-member-photo">
+            <h3>Екимов Сергей</h3>
+            <p>Тестировщик</p>
+            <button class="bio-btn" onclick="showBio('sergey')">Подробнее</button>
+
+            <div id="sergey" class="bio-modal">
+                <div class="bio-modal-content">
+                    <span class="close-btn" onclick="closeBio('sergey')">&times;</span>
+                    <h3>Екимов Сергей</h3>
+                    <p>Сергей — тестировщик, который анализирует функциональные и нефункциональные аспекты приложения, выявляя и устраняя потенциальные проблемы.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
